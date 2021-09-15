@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var counter = 0
     var timer = Timer()
     
-    let timesValue = ["Start": 5, "Stop": 0]
+    let timesValue = ["Start": 60*25, "Stop": 0]
     
     
     @IBOutlet weak var timerLabel: UILabel!
